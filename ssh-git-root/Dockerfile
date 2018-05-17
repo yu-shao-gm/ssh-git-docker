@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM registry.paas.redhat.com/itpaas-blessed-images/rhel7-platops:latest
 
 RUN dnf -y install openssh-server git
 
